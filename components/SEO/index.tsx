@@ -9,7 +9,6 @@ type Props = {
 }
 
 export default function SEO({
-  description = 'Find all the tools, libraries, and code snippets you need for your next big project at Lazyweb Rocks. Our collection of useful resources is constantly updated to help you save time and focus on building great things.',
   author = 'Dishant Sharma',
   meta,
   title = 'Lazyweb Rocks: The ultimate resource for developers',
@@ -17,15 +16,15 @@ export default function SEO({
   const metaData = [
     {
       name: `description`,
-      content: description,
+      content: 'Find all the tools, libraries, and code snippets you need for your next big project at Lazyweb Rocks. Our collection of useful resources is constantly updated to help you save time and focus on building great things.',
     },
     {
       property: `og:title`,
-      content: title,
+      content: 'Lazyweb Rocks: The ultimate resource for developers',
     },
     {
       property: `og:description`,
-      content: description,
+      content: 'Find all the tools, libraries, and code snippets you need for your next big project at Lazyweb Rocks. Our collection of useful resources is constantly updated to help you save time and focus on building great things.',
     },
     {
       property: `og:type`,
@@ -37,15 +36,15 @@ export default function SEO({
     },
     {
       name: `twitter:creator`,
-      content: author,
+      content: 'Dishant Sharma',
     },
     {
       name: `twitter:title`,
-      content: title,
+      content: 'Lazyweb Rocks: The ultimate resource for developers',
     },
     {
       name: `twitter:description`,
-      content: description,
+      content: 'Find all the tools, libraries, and code snippets you need for your next big project at Lazyweb Rocks. Our collection of useful resources is constantly updated to help you save time and focus on building great things.',
     },
   ].concat(meta);
   return (
