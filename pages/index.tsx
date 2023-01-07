@@ -1,4 +1,4 @@
-import { Features, Hero, NavBar } from 'components'
+import { FeatureDetails, Features, Hero, NavBar, WhyLazyweb } from 'components'
 import React from 'react'
 
 const Home = () => {
@@ -7,6 +7,8 @@ const Home = () => {
       <NavBar/>
       <Hero/>
       <Features/>
+      <WhyLazyweb/>
+      <FeatureDetails/>
     </div>
   )
 }
