@@ -6,3 +6,11 @@
 html{
   overflow-x: hidden;
 }
+
+!
+/* smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+
